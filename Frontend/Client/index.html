@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>parking record</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="/favicon.ico">
+<script src='./script.js'></script>
+</head>
+<body>
+    <div class="nose">
+        <div class="div2">
+            <form id='registration-form' style="display: block;" class="registration-form">
+                <h1 class="title">AÑADIR</h1>
+                <div class="input-group">
+                    <label for='placa'>numero de placa</label>
+                    <input name='placa' id='placa' placeholder="Enter your placa" />
+                </div>
+                <button class="submit-btn" type='submit'>SUBIR</button>
+            </form>
+        </div>
+        <div class="div1">
+            <form id='removal-form' style="display: block;" class="removal-form">
+                <h1 class="title">REMOVER</h1>
+                <div class="input-group">
+                    <label for='license-plate'>License Plate</label>
+                    <input name='license-plate' id='license-plate' placeholder="Enter license plate" />
+                </div>
+                <button class="submit-btn" type='submit'>REMOVER</button>
+            </form>
+        </div>
+    </div>
+    <div class="div3">
+        <form
+            id="transmilenio-form"
+            style="display: block;"
+            class="transmilenio-form"
+        >
+            <h1 class="title">BUSCAR</h1>
+            <div class="input-group">
+                <label for="license-plate">Numero de Placa</label>
+                <input
+                    name="license-plate"
+                    id="license-plate"
+                    placeholder="Ingrese el numero de placa"
+                />
+            </div>
+            <button class="submit-btn" type="submit">BUSCAR</button>
+            <div id="cars-search" style="display: block;" class="list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Numero de placa</th>
+                        <th>Tiempo de llegada</th>
+                        <th>veces editado</th>
+                    </tr>
+                </thead>
+                <tbody id="transmilenio-search">
+                
+                </tbody>
+            </table>
+        </div>
+        </form>
+        
+
+
+    </div>
+        <div id="cars-list" style="display: block;" class="list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Numero de placa</th>
+                        <th>Tiempo de llegada</th>
+                        <th>veces editado</th>
+                    </tr>
+                </thead>
+                <tbody id="transmilenio-table-body">
+                
+                </tbody>
+            </table>
+        </div>
+    <script src='./script.js'></script>
+</body>
+</html>
