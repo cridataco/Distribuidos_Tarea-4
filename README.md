@@ -13,5 +13,3 @@ Esta aplicación permite registrar buses de Transmilenio con la placa y el tiemp
 - **Formulario de Eliminación:** Se incluye un formulario para eliminar buses del sistema.
 
 - **Búsqueda y Edición:** Permite buscar un bus específico y ver cuántas veces ha sido editado.
-
-Esta aplicación está diseñada para facilitar el seguimiento y gestión de los buses en el sistema de Transmilenio, mejorando la eficiencia en la administración de la información de los tiempos de llegada.
