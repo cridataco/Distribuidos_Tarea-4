@@ -13,3 +13,8 @@ Esta aplicación permite registrar buses de Transmilenio con la placa y el tiemp
 - **Formulario de Eliminación:** Se incluye un formulario para eliminar buses del sistema.
 
 - **Búsqueda y Edición:** Permite buscar un bus específico y ver cuántas veces ha sido editado.
+
+#Ejecución
+--Entrar a la ruta "backend/express_Server" mediante alguna consola de comandos
+--Ejecutar el server del backend con el comando "node (ruta del archivo app.js)" por ejemplo "node app.js"
+--Para abrir la visual del frontend y usar el app, se debe entrar a la carpeta "FrontEnd/Client" y ejecutar el archivo "index.html"
